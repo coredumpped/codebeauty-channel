@@ -44,6 +44,7 @@ public:
     FlyingCar(std::string name, std::string color, double price):Car(name, color, price) {
 
     }
+    // its own move method different from Car move method
     void move() {
         if(isBroken) 
             std::cout << Name << " is broken" << std::endl;
