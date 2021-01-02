@@ -21,7 +21,7 @@ int main() {
 
     // relational operators <, >, <=, >=, !=
     int a = 5, b = 58;
-    std::cout << (a > b) << std::endl;;
+    std::cout << (a > b) << std::endl;
 
     // logical &&, ||, !
     std::cout << !(a == 5 & b == 5) << std::endl;
