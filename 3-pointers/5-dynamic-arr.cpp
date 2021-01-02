@@ -25,6 +25,7 @@ int main() {
     }
     
     delete []myArray;
+    // perhaps better use nullptr
     myArray = NULL;
 
     std::cout << std::endl << std::endl << std::endl << std::endl;
